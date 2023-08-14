@@ -8,12 +8,18 @@
 
 Запустите приложение с помощью Poetry: poetry run
 
-Платформа для сбора вакансий : hh.ru (ссылка на API)
+Платформа для сбора вакансий : hh.ru (ссылка на API: https://github.com/hhru/api/blob/master/docs/general.md)
 
 Словарь с данными для подключения к БД мы получаем из функции config(),
 находящейся в файле config.py.
 
 В файле database.ini хранится сама конфигурация.
+Пример: 
+[postgresql]
+host=localhost
+user=postgres
+password=12345
+port=5432
 
 Запуск
 Для примера работы программы были выбраны 10 компаний-работодателей с сайта hh.ru.
