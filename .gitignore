@@ -75,7 +75,7 @@ target/
 celerybeat-schedule
 
 # dotenv
-.env
+database.ini
 
 # virtualenv
 venv/
